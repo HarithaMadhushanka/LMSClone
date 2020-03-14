@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "142728468228",
+    "firebase_url": "https://lmsclone-ae9a9.firebaseio.com",
+    "project_id": "lmsclone-ae9a9",
+    "storage_bucket": "lmsclone-ae9a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142728468228:android:e7b25d428084710523e251",
+        "android_client_info": {
+          "package_name": "com.example.lmsclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142728468228-2unuiqujmp049suincnvhbbgm42fco6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmsclone",
+            "certificate_hash": "50b24c48a8ae6a8953504ccd66b3c0462c1f94b1"
+          }
+        },
+        {
+          "client_id": "142728468228-jd46hgs2u2vfc6tk9u2cbuuh7dgaq717.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoe7APSu1RoT3lYodSV0GoVoIsd5kVvmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142728468228-jd46hgs2u2vfc6tk9u2cbuuh7dgaq717.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

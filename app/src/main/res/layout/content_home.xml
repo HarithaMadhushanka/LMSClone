@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".User.HomeActivity"
+    tools:showIn="@layout/app_bar_home"
+    android:backgroundTint="#f4f4f8"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMenuHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30sp"
+        android:backgroundTint="#f4f4f8"
+        android:paddingLeft="7sp"
+        android:paddingRight="7sp"
+        android:scrollbars="vertical"
+        android:orientation="vertical"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

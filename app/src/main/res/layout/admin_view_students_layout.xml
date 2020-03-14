@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20sp"
+    android:layout_marginStart="15sp"
+    android:layout_marginEnd="15sp"
+    app:cardElevation="15sp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/studentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student ID"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#053f5e"
+            />
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:layout_below="@+id/studentId"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/studentDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student's Degree"
+            android:layout_below="@+id/studentName"
+            android:layout_marginTop="2sp"
+            android:textAlignment="center"
+            android:paddingTop="3sp"
+            android:paddingBottom="3sp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/studentBatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student's batch"
+            android:layout_below="@+id/studentDegree"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/studentBatch"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/deleteUser"
+                android:text="Delete the User"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:textColor="#FF0000"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

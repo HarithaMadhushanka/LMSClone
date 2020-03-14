@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#fff"
+    android:background="@drawable/white_border"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="7dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        >
+
+        <TextView
+            android:id="@+id/lessonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson Name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/calibri_regular"
+            android:layout_marginTop="5dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_alignParentStart="true"
+            />
+
+        <Button
+            android:id="@+id/downloadBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/download_icon"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

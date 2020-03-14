@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#008081"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28sp"
+            android:gravity="end"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learning Management System"
+                android:layout_marginRight="90dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="@font/calibri_regular"
+                />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#e6e6ea"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:textSize="20sp"
+            android:fontFamily="@font/calibri_regular"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Add New Lessons"
+            android:textColor="#36454f"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/selectPdfFile"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pdf_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        />
+
+    <EditText
+        android:id="@+id/txtLessonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectPdfFile"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20sp"
+        android:padding="20sp"
+        android:hint="Enter the lesson name"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/corners"
+        />
+
+    <EditText
+        android:id="@+id/txtFacultyId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLessonName"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6sp"
+        android:padding="20sp"
+        android:hint="Enter the Faculty Id"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/corners"
+        />
+
+    <EditText
+        android:id="@+id/txtSubjectId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFacultyId"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6sp"
+        android:padding="20sp"
+        android:hint="Enter the Subject Id"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/corners"
+        />
+
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubjectId"
+        android:text="Add Product"
+        android:layout_marginTop="30sp"
+        android:padding="18sp"
+        android:background="@drawable/buttons"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>

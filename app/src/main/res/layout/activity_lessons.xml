@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#f4f4f8"
+    tools:context=".User.LessonsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#008081"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28sp"
+            android:gravity="end"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learning Management System"
+                android:layout_marginRight="90dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="@font/calibri_regular"
+                />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#e6e6ea"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:textSize="20sp"
+            android:fontFamily="@font/calibri_regular"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Lessons"
+            android:textColor="#36454f"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="80dp"
+        android:scrollbars="vertical"
+        android:backgroundTint="#f4f4f8"
+        android:orientation="vertical"
+        ></ListView>
+
+</RelativeLayout>
